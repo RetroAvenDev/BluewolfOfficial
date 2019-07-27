@@ -1,0 +1,12 @@
+img {
+  border-radius: 50%;
+}
+
+#a {
+    position:absolute;
+    border-radius:100px;
+    background-color:#72CEE0;
+    width:100px;
+    height:100px;
+    left:150px;
+}

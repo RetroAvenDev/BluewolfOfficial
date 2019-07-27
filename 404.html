@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="src/error.png">
+<title>404</title>
+</head>
+<body>
+<h1 style="color:white;">
+  
+  <center>Redirecting To Home Page
+<br />
+<center><span id="countdown">10</span> Seconds
+    </center>
+</h1>
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 11;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            window.location = "https://retroavendev.github.io/BluewolfOfficial/home";
+        } else {
+            document.getElementById("countdown").innerHTML = seconds;
+ 
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
+<style>
+body {
+background-color: TURQUOISE;
+}
+</style>
+<br />
+<br />
+<br />
+<center>
+<Img src=src/404png.png>
+</center>
+</body>
+</html>
